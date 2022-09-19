@@ -13,7 +13,7 @@ namespace Records
             Employee& addEmployee(const std::string& firstName,
                 const std::string& lastName);
             Employee& getEmployee(int employeeNumber);
-            Employee& getEmployee(const std::string& firstName
+            Employee& getEmployee(const std::string& firstName,
                 const std::string& lastName);
 
             void displayAll() const;

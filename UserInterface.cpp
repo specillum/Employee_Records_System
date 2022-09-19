@@ -95,7 +95,7 @@ void doFire(Database& db)
         auto& emp { db.getEmployee(employeeNumber) };
         emp.fire();
         cout << format("Employee {} terminated.", employeeNumber) << endl;
-    } catch (const std::logic_error& exeption) {
+    } catch (const std::logic_error& exception) {
         cerr << format("Unable to terminate employee: {}",
             exception.what()) << endl;
     }

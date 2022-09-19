@@ -64,4 +64,19 @@ namespace Records
         return m_employeeNumber;
     }
 
+    void Employee::setSalary(int salary)
+    {
+        m_salary = salary;
+    }
+
+    int Employee::getSalary() const
+    {
+        return m_salary;
+    }
+
+    bool Employee::isHired() const
+    {
+        return m_hired;
+    }
+
 }

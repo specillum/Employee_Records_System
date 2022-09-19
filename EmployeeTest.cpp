@@ -7,7 +7,7 @@ using namespace Records;
 int main()
 {
     cout << "Testing the Employee class." << endl;
-    Employee emp { "Jane, Doe" };
+    Employee emp { "Jane", "Doe" };
     emp.setFirstName("John");
     emp.setLastName("Doe");
     emp.setEmployeeNumber(71);

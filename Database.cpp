@@ -27,8 +27,8 @@ namespace Records
         throw logic_error {"No employee found." };
     }
 
-    Employee& Database::getEmployee(const std::string& firstName
-                const std::string& lastName);
+    Employee& Database::getEmployee(const std::string& firstName,
+                const std::string& lastName)
     {
         for (auto& employee : m_employees)
         {
